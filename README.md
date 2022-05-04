@@ -49,7 +49,7 @@ Setup System Environment Variables
     export GEOIPS2_CONFIG_FILE=$GEOIPS2_BASEDIR/geoips2_packages/geoips2_template_plugin/setup/config_plugin
 
     # GEOIPS2_REPO_URL should point to the base URL for git clone commands
-    export $GEOIPS2_REPO_URL=https://github.com/USNavalResearchLaboratory/
+    export GEOIPS2_REPO_URL=https://github.com/USNavalResearchLaboratory/
 
 ```
 
