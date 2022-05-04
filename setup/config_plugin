@@ -1,8 +1,8 @@
 ################################################################################
-# geoips config specific to template_plugin repository.
+# geoips config specific to geoips2_template_plugin repository.
 
 # This sources the main geoips2/setup/config_geoips2 environment, as well as allowing
-# additional environment variables / configurations specific to the template_plugin
+# additional environment variables / configurations specific to the geoips2_template_plugin
 # functionality.
 
 # If no additional configurations are required for your particular plugin, you can

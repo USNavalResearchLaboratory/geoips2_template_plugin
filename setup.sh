@@ -46,7 +46,7 @@ elif [[ "$1" == "repo_update" ]]; then
 
 elif [[ "$1" == "install" ]]; then
 
-    pip install -e $GEOIPS2_PACKAGES_DIR/template_plugin
+    pip install -e $GEOIPS2_PACKAGES_DIR/geoips2_template_plugin
 
     # Uses internal_plugins, internal_algs, and external_repos variables
     . $GEOIPS2_PACKAGES_DIR/geoips2/setup/repo_clone_update_install.sh install_plugins

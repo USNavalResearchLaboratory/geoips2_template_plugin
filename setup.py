@@ -27,11 +27,11 @@ from numpy.distutils.core import setup, Extension
 with open(join(dirname(realpath(__file__)), 'VERSION'), encoding='utf-8') as version_file:
     version = version_file.read().strip()
 
-ext1 = Extension(name='template_plugin.lib.constants',
+ext1 = Extension(name='geoips2_template_plugin.lib.constants',
                  sources=['src/constants.f90'])
 
 setup(
-      name='template_plugin',
+      name='geoips2_template_plugin',
       version=version,
       packages=find_packages(),
       python_requires='>=3.6',
@@ -40,21 +40,21 @@ setup(
       ext_modules=[ext1],
       entry_points={
           'geoips2.filename_formats': [
-              'test_fname=template_plugin.interface_modules.filename_formats.test_fname:test_fname',
+              'test_fname=geoips2_template_plugin.interface_modules.filename_formats.test_fname:test_fname',
           ],
           'geoips2.output_formats': [
-              'imagery_test=template_plugin.interface_modules.output_formats.imagery_test:imagery_test',
+              'imagery_test=geoips2_template_plugin.interface_modules.output_formats.imagery_test:imagery_test',
           ],
           'geoips2.algorithms': [
-              'single_channel_test=template_plugin.interface_modules.algorithms.single_channel_test:' +
+              'single_channel_test=geoips2_template_plugin.interface_modules.algorithms.single_channel_test:' +
               'single_channel_test',
           ],
           'geoips2.interpolation': [
-              'pyresample_wrappers.interp_gauss_test=template_plugin.interface_modules.interpolation.' +
+              'pyresample_wrappers.interp_gauss_test=geoips2_template_plugin.interface_modules.interpolation.' +
               'pyresample_wrappers.interp_gauss_test:interp_gauss_test',
           ],
           'geoips2.user_colormaps': [
-              'visir.Infrared_Test=template_plugin.interface_modules.user_colormaps.' +
+              'visir.Infrared_Test=geoips2_template_plugin.interface_modules.user_colormaps.' +
               'visir.Infrared_Test:Infrared_Test',
           ],
       }

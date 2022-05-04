@@ -18,7 +18,7 @@ GeoIPS 2.0 Overview
 Please see GeoIPS 2.0 Documentation Overview for high level information on the plugin infrastructure.
 
 
-template_plugin Repository
+geoips2_template_plugin Repository
 ==========================
 
 This repository provides a working example of GeoIPS 2.0 plugin functionality.
@@ -38,10 +38,10 @@ It includes the following examples of Python plugins:
 
 It includes the following examples of YAML product parameter plugins:
 
-* template_plugin/yaml_configs/product_inputs/abi.yaml
+* geoips2_template_plugin/yaml_configs/product_inputs/abi.yaml
     * Infrared-Test product using variables B14BT
-    * Functionality included in template_plugin abi.yaml product input is appended to functionality in all other repos
-* template_plugin/yaml_configs/product_params/visir/Infrared-Test.yaml
+    * Functionality included in geoips2_template_plugin abi.yaml product input is appended to functionality in all other repos
+* geoips2_template_plugin/yaml_configs/product_params/visir/Infrared-Test.yaml
     * Infrared-Test product parameters identical to Infrared product parameters in geoips2 repository
     * Infrared-Test product accessible via the "Infrared-Test" product name either command line
         or within a YAML output configuration file.
@@ -50,7 +50,7 @@ It includes the following examples of YAML product parameter plugins:
 Creating your own plugin repository
 ===================================
 
-This template_plugin can be used as a guide to create your own geoips2 plugin repository.  Follow instructions
+This geoips2_template_plugin can be used as a guide to create your own geoips2 plugin repository.  Follow instructions
 in the README.md for modifying appropriately.
 
-https://github.com/USNavalResearchLaboratory/template_plugin/blob/dev/README.md
+https://github.com/USNavalResearchLaboratory/geoips2_template_plugin/blob/dev/README.md

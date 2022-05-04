@@ -19,7 +19,7 @@ run_procflow $GEOIPS2/tests/data/goes16_20200918_1950/* \
           --reader_name abi_netcdf \
           --resampled_read \
           --product_name Infrared-Test \
-          --compare_path "$GEOIPS2_BASEDIR/geoips2_packages/template_plugin/tests/outputs/abi_aws/<product>_image" \
+          --compare_path "$GEOIPS2_BASEDIR/geoips2_packages/geoips2_template_plugin/tests/outputs/abi_aws/<product>_image" \
          --output_format imagery_test \
          --filename_format test_fname \
          --sector_list goes16 \

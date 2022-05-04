@@ -12,7 +12,7 @@
  | # # # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  | # # # included license for more details.
 
-template_plugin documentation - geoips2 plugin example
+geoips2_template_plugin documentation - geoips2 plugin example
 =============================================================================
 
 .. toctree::
@@ -20,14 +20,14 @@ template_plugin documentation - geoips2 plugin example
    :caption: Contents:
 
 
-:doc:`template_plugin_overview`
+:doc:`geoips2_template_plugin_overview`
 ----------------------------------
-Overview of geoips2 plugin functionality, and the example template_plugin repository
+Overview of geoips2 plugin functionality, and the example geoips2_template_plugin repository
 
 
 :doc:`installation`
 ----------------------------------
-Instructions for installing geoips2 and the template_plugin repo
+Instructions for installing geoips2 and the geoips2_template_plugin repo
 
 
 Contact Information

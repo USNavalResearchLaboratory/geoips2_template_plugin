@@ -14,7 +14,7 @@
 
 #!/bin/bash
 
-# This should contain test calls to cover ALL required functionality tests for the template_plugin repo.
+# This should contain test calls to cover ALL required functionality tests for the geoips2_template_plugin repo.
 
 # The $GEOIPS2 tests modules sourced within this script handle:
    # setting up the appropriate associative arrays for tracking the overall return value,
@@ -23,12 +23,12 @@
 
 # Note you must use the variable "call" in the for the loop
 
-. $GEOIPS2/tests/utils/test_all_pre.sh template_plugin
+. $GEOIPS2/tests/utils/test_all_pre.sh geoips2_template_plugin
 
 echo ""
 # "call" used in test_all_run.sh
 for call in \
-            "$GEOIPS2_PACKAGES_DIR/template_plugin/tests/scripts/abi_aws.sh"
+            "$GEOIPS2_PACKAGES_DIR/geoips2_template_plugin/tests/scripts/abi_aws.sh"
 do
     . $GEOIPS2/tests/utils/test_all_run.sh
 done

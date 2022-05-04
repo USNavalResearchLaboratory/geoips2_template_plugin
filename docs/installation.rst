@@ -15,7 +15,7 @@
 Installation Guide
 ==================================
 
-Installation steps are specified within the template_plugin README:
+Installation steps are specified within the geoips2_template_plugin README:
 
-https://github.com/USNavalResearchLaboratory/template_plugin/blob/dev/README.md
+https://github.com/USNavalResearchLaboratory/geoips2_template_plugin/blob/dev/README.md
 

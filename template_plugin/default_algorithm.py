@@ -14,10 +14,10 @@
 
 '''Standard template module'''
 
-from template_plugin.lib.constants import constants
+from geoips2_template_plugin.lib.constants import constants
 
 
-def template_plugin(value=None):
+def geoips2_template_plugin(value=None):
     '''
     This is a default algorithm for testing our CI/CD setup
     '''

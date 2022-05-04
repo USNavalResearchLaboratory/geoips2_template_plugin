@@ -16,10 +16,10 @@ Running test scripts
 --------------------
 ```
 # Run an individual test script - each test script must return 0 for successful run, or non-zero for failed
-$GEOIPS2_PACKAGES_DIR/template_plugin/tests/scripts/<script_name>.sh
+$GEOIPS2_PACKAGES_DIR/geoips2_template_plugin/tests/scripts/<script_name>.sh
 
 # Test ALL functionality within the current repo
-$GEOIPS2_PACKAGES_DIR/template_plugin/tests/test_all.sh
+$GEOIPS2_PACKAGES_DIR/geoips2_template_plugin/tests/test_all.sh
 ```
 
 Creating a new test repo
@@ -70,7 +70,7 @@ cd $GEOIPS2_BASEDIR/test_data/test_data_<type>
 
 # Add your new call to test_all.sh so we ensure it is in the testing rotation:
 # add something like
-#   "$GEOIPS2_PACKAGES_DIR/template_plugin/tests/scripts/abi_aws.sh"
+#   "$GEOIPS2_PACKAGES_DIR/geoips2_template_plugin/tests/scripts/abi_aws.sh"
 # to test_all.sh
-vim $GEOIPS2_PACKAGES_DIR/template_plugin/tests/test_all.sh
+vim $GEOIPS2_PACKAGES_DIR/geoips2_template_plugin/tests/test_all.sh
 ```
